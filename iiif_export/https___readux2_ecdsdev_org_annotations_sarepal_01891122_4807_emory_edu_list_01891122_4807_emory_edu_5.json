@@ -1,0 +1,92 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux2.ecdsdev.org/annotations/sarepal/01891122.4807.emory.edu/list/01891122.4807.emory.edu$5",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "f633cdb8-9351-451c-b7d6-a39ff4e9c908",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Sara Palmer"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>text note</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux2.ecdsdev.org/iiif/v2/01891122.4807.emory.edu/canvas/01891122.4807.emory.edu$5",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux2.ecdsdev.org/iiif/v2/01891122.4807.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=330,590,706,88",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='5fd9a2f1-82d7-4293-a202-9ada1dc89a59']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='11607044-2915-4a7f-b6d0-cbc04620b8d2']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 6
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-f633cdb8-9351-451c-b7d6-a39ff4e9c908 { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "97e1160c-4f80-486b-b619-179e7b1d470a",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Sara Palmer"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>shape note</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux2.ecdsdev.org/iiif/v2/01891122.4807.emory.edu/canvas/01891122.4807.emory.edu$5",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux2.ecdsdev.org/iiif/v2/01891122.4807.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=158,844,583,386",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M243.60995,900.44899c53.78789,-32.45484 129.66442,-56.62286 205.90864,-56.59398v0v0c76.24422,0.02887 142.66573,22.63767 205.90864,56.59398c63.24291,33.95632 87.82462,85.69919 85.29015,136.62996c-2.53447,50.93077 -32.18513,101.04945 -85.29015,136.62996c-53.10502,35.58051 -129.66442,56.62286 -205.90864,56.59398c-76.24422,-0.02887 -152.17328,-21.12897 -205.90864,-56.59398c-53.73536,-35.46501 -85.27702,-85.29495 -85.29015,-136.62996c-0.01313,-51.33502 31.50226,-104.17513 85.29015,-136.62996z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_a10e72d1-0e43-45db-802e-e4ecd8538076\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=158,844,583,386"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
